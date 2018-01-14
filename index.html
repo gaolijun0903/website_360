@@ -141,7 +141,7 @@
 	</div>
     <!-- 轮播end --> 
     <!-- 登录 框start--> 
-    <div class="login"> 
+    <div id="login-container-login" class="login"> 
      <h3 class="login-h3">账号登录</h3> 
      <div class="wan-index-login"> 
       <div class="quc-mod-sign-in quc-mod-normal-sign-in"> 
@@ -149,8 +149,7 @@
         <p class="quc-tip"></p> 
        </div> 
        <div class="quc-main"> 
-        <form class="quc-form" action="http://www.6668yx.com/" method="post" id="login_form"> 
-         <input type="hidden" name="token" value="2721a540a44b27b6a189211b7c8430ca" /> 
+        <form class="quc-form" id="login_form">
          <p class="quc-field quc-field-account quc-input-long"> 
          	<label class="quc-label" for="quc_account_490820445">帐&nbsp;&nbsp;&nbsp;号</label>
          	<span class="quc-input-bg"> 
@@ -184,6 +183,68 @@
      </div> 
     </div> 
     <!-- 登录 框end--> 
+	<!-- 登录成功start -->
+	<div id="login-container" class="login" style="display:none;">
+		<div class="login-user">
+			<!-- 用户信息 -->
+			<div class="login-user-info">
+				<a href="javascript:;" target="_blank" class="user_info_avatar">
+					<img class="img" src="./images/noavatar.gif" alt="我的头像">
+				</a>
+				<div class="name-out">
+					<div class="name">
+						<a href="#" class="name-text" title="daidaidai">daidaidai</a>
+					</div>
+					<a class="out wan-logout-btn"><span class="i-logOut" style="display:none"></span>退出</a>
+				</div>
+				<div class="core">
+					<span class="i-jifen"></span>
+					<a class="org-color" style="margin: 0px;" href="javascript:;" target="_blank"><span class="org-color">0</span></a>
+					<!--a class="org-color" href="javascript:;" target="_blank" data-bk="wan-index-userjifen">赚积分</a>
+					<a class="loginfo-ad" href="javascript:;" data-bk="wan-index-ADposition" target="_blank"><img src="" width="56" height="19"></a-->
+				</div>
+			</div>
+			<!-- 成长值 start -->
+			<div class="DWJgrow" style="visibility: visible;">
+				<a data-bk="wan-index-uservplay" href="javascript:;" target="_blank" class="bigplayer-icon bigplayer-lv1"></a>
+				<div class="DWJgrow--container">
+					<span class="DWJgrow--percent" style="width:10px;"></span>
+				</div>
+				<div class="DWJgrow--tips">
+					<p>等级：<b>SV1</b>（1/11）<br> 再获得
+						<span> 11 </span>成长值即可升级 <a href="javascript:;" target="_blank">查看特权</a>
+					</p>
+				</div>
+			</div>
+			<!-- 成长值 end -->
+			<!-- 每日抽奖 -->
+			<div id="usercheck" class="login-user-sign clearfix">
+				<!-- 签到按钮 -->
+				<a class="lottery-btn" data-bk="homepage—qiandao">
+					<!--span class="i-lottery"></span-->
+					<span class="text">签到</span>
+				</a>
+			</div>
+		</div>
+		<!-- played start-->
+		<div class="login-played" style="">
+			<div class="login-tit">
+				<h4>我玩过的</h4>
+				<a href="#">MORE &gt;</a>
+			</div>
+			<ul class="login-list">
+				<li>
+					<a href="/Servers/160.html" target="_blank">
+						<img width="16" height="16" alt="鬼吹灯" src="images/logo-1.png">
+						<span class="name">鬼吹灯</span>
+						<span class="area">7区</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- played end-->
+	</div>
+	<!-- 登录成功end -->
    </div> 
    <!--轮播图及登陆框end-->
    
@@ -1438,14 +1499,23 @@
   <script type="text/javascript">
   		//立即登录按钮点击事件
 		$('.quc-submit').on('click', function(){
-			$.post('###', $('#login_form').serialize(), function(res){
+			$("#login-container").show();
+			$("#login-container-login").hide();
+			/*$.post('###', $('#login_form').serialize(), function(res){
 				if(res.status == 1){
 					window.location.reload();
 				}else{
 					layer.msg(res.info, {time:1000});
 				}
-			});
+			});*/
 			return false;
+		});
+		// 退出登录
+		$(".wan-logout-btn").on("click",function() {
+			// 需要执行ajax请求
+			
+			$("#login-container").hide();
+			$("#login-container-login").show();
 		});
   </script> 
  </body>

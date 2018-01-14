@@ -1,19 +1,5 @@
 ;
-$("#nav-search").on("focus",
-function() {
-    $(".search_custom").show();
-});
-$("#nav-search").on("blur",
-function() {
-    $(".search_custom").hide();
-});
-$(".nav_searchBtn").on("click",
-function() {
-    var a = $("#nav-search").val();
-    window.location.href = "/Game.html?name=" + a;
-});
-$(".menu-button-po").on("click",
-function() {
+$(".menu-button-po").on("click", function() {
     $("#right").toggleClass("active");
     if ($("#right").hasClass("active")) {
         $("#nav-slide").slideDown();
@@ -21,16 +7,12 @@ function() {
         $("#nav-slide").slideUp();
     }
 });
-$("#kflb li").on("click",
-function() {
+$("#kflb li").on("click", function() {
     var a = $(this).index();
     $(this).addClass("cur").siblings("li").removeClass("cur");
     $(".kflbqh").eq(a).show().siblings(".kflbqh").hide();
 });
-$(".wan-logout-btn").on("click",
-function() {
-    window.location.href = "/Logout.html";
-});
+
 $(".hc-login").on("click",function() {
     layer.open({
         type: 2,
