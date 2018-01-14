@@ -1,0 +1,850 @@
+.quc-wrapper {
+	font: 12px/1.125 Microsoft YaHei
+}
+
+.quc-wrapper .quc-button {
+	display: inline-block;
+	width: 81px;
+	height: 40px;
+	border: 0;
+	outline: 0;
+	font-size: 0;
+	line-height: 0;
+	text-indent: -999px;
+	*text-indent: 0;
+	vertical-align: middle;
+	cursor: pointer;
+	background: url(../images/sp.png) no-repeat
+}
+
+.quc-wrapper .quc-button-sign-up {
+	width: 263px;
+	background-position: 0 -360px
+}
+
+.quc-wrapper .quc-button-sign-up:focus,.quc-wrapper .quc-button-sign-up:hover {
+	background-position: 0 -400px
+}
+
+.quc-wrapper .quc-button-sign-up:active {
+	background-position: 0 -360px
+}
+
+.quc-wrapper .quc-button-sign-in,.quc-wrapper .quc-button-sign-in:active {
+	width: 263px;
+	background-position: 0 -120px
+}
+
+.quc-wrapper .quc-button-sign-in:focus,.quc-wrapper .quc-button-sign-in:hover {
+	background-position: 0 -160px
+}
+
+.quc-wrapper .quc-button-signing-in,.quc-wrapper .quc-button-signing-in:active,.quc-wrapper .quc-button-signing-in:hover {
+	width: 263px;
+	background-position: 0 -200px;
+	cursor: default
+}
+
+.quc-wrapper .quc-input-bg {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 270px;
+	height: 42px;
+	vertical-align: middle;
+	background: url(../images/sp.png) no-repeat
+}
+
+.quc-input-long .quc-input-bg {
+	width: 270px;
+	background-position: 0 -440px
+}
+
+.quc-input-middle .quc-input-bg {
+	width: 145px;
+	background-position: -270px -439px
+}
+
+.quc-input-middle .quc-input {
+	width: 123px
+}
+
+.quc-input-short .quc-input-bg {
+	width: 120px;
+	background-position: 0 -575px
+}
+
+.quc-input-short .quc-input {
+	width: 97px
+}
+
+.quc-wrapper .quc-checkbox {
+	vertical-align: middle;
+	margin-right: 5px
+}
+
+.quc-wrapper .quc-tip {
+	color: #959393
+}
+
+.quc-wrapper .quc-tip-error {
+	color: red
+}
+
+.quc-wrapper .quc-tip-success {
+	color: #64c82c
+}
+
+.quc-wrapper a.quc-link,.quc-wrapper a.quc-link:active {
+	color: #0082cb
+}
+
+.quc-wrapper a.quc-link:hover {
+	text-decoration: underline
+}
+
+.quc-wrapper .quc-tip-icon {
+	display: inline-block;
+	width: 17px;
+	height: 15px;
+	margin: 0 0 2px 4px;
+	vertical-align: middle;
+	background: url(../images/sp.png) no-repeat 999px
+}
+
+.quc-wrapper .quc-tip-icon-correct {
+	background-position: -350px -330px
+}
+
+.quc-wrapper .quc-tip-icon-incorrect {
+	background-position: -350px -345px
+}
+
+.quc-mod-sign-in {
+	overflow: hidden
+}
+
+.quc-mod-sign-in .quc-main {
+	width: 380px;
+	min-height: 190px;
+	padding: 0 0 10px 30px
+}
+
+.quc-mod-sign-in .quc-tip-wrapper {
+	height: 21px;
+	line-height: 21px;
+	padding: 13px 0 0 105px
+}
+
+.quc-mod-sign-in .quc-label {
+	display: inline-block;
+	width: 60px;
+	margin-right: 10px;
+	line-height: 31px;
+	font-size: 14px;
+	color: #333;
+	text-align: right
+}
+
+.quc-mod-sign-in .quc-field {
+	margin-bottom: 10px
+}
+
+.quc-mod-sign-in .quc-field-third-part {
+	padding-top: 3px;
+	color: #888;
+	margin-bottom: 0
+}
+
+.quc-mod-sign-in .quc-third-part {
+	margin-left: 5px
+}
+
+.quc-mod-sign-in .quc-third-part-icon {
+	display: inline-block;
+	width: 31px;
+	height: 26px;
+	vertical-align: middle;
+	margin: -3px 0 0 -1px;
+	background: url(../images/sp.png) no-repeat
+}
+
+.quc-mod-sign-in .quc-third-part-icon:focus,.quc-mod-sign-in .quc-third-part-icon:hover {
+	position: relative
+}
+
+.quc-mod-sign-in .quc-third-part-icon-sina {
+	background-position: -400px -280px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-sina:hover {
+	background-position: -430px -280px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-renren {
+	background-position: -400px -305px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-renren:hover {
+	background-position: -430px -305px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-fetion {
+	background-position: -400px -330px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-fetion:hover {
+	background-position: -430px -330px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-msn {
+	background-position: -400px -355px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-msn:hover {
+	background-position: -430px -355px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-telecom {
+	background-position: -400px -380px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-telecom:hover {
+	background-position: -430px -380px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-tencent {
+	background-position: -400px -355px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-tencent:hover {
+	background-position: -430px -355px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-weixin {
+	background-position: -400px -576px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-weixin:hover {
+	background-position: -430px -576px
+}
+
+.quc-mod-mobile-sign-in .quc-field-send-sms,.quc-mod-normal-sign-in .quc-field-third-part,.quc-mod-sign-in .quc-field-keep-alive,.quc-mod-sign-in .quc-field-submit {
+	padding-left: 75px
+}
+
+.quc-mod-mobile-sign-in .quc-link-mobile-tip {
+	margin-left: 53px
+}
+
+.quc-mod-sign-in .quc-captcha-img {
+	height: 35px;
+	vertical-align: middle;
+	outline: 0;
+	cursor: pointer
+}
+
+.quc-mod-sign-in .quc-field-captcha {
+	display: none
+}
+
+.quc-wrapper .quc-mod-set-sec-email {
+	padding: 0 40px 30px
+}
+
+.quc-mod-set-sec-email .quc-tip {
+	padding: 15px 0 2px 75px;
+	height: 14px;
+	line-height: 14px
+}
+
+.quc-mod-set-sec-email .quc-form p {
+	padding: 5px 0
+}
+
+.quc-mod-set-sec-email .quc-label {
+	display: inline-block;
+	width: 60px;
+	height: 41px;
+	line-height: 41px;
+	color: #333;
+	font-size: 14px;
+	padding-right: 10px;
+	text-align: right
+}
+
+.quc-mod-set-sec-email .quc-button-submit {
+	font-size: 14px;
+	color: #fff;
+	margin-left: 73px
+}
+
+.quc-mod-sign-up .quc-left-bar {
+	float: left;
+	width: 143px;
+	background-color: #fbfefe
+}
+
+.quc-mod-sign-up .quc-left-bar .quc-sign-up-type {
+	margin-top: 20px;
+	border-top: 1px solid #e4ebec
+}
+
+.quc-mod-sign-up .quc-left-bar .quc-sign-up-type li {
+	border-bottom: 1px solid #e4ebec;
+	font: 16px/50px Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,SimHei,\\9ED1\4F53
+}
+
+.quc-mod-sign-up .quc-left-bar .quc-sign-up-type li a {
+	display: block;
+	width: 126px;
+	height: 50px;
+	padding-left: 17px;
+	_padding-top: 11px;
+	_height: 39px;
+	color: #666;
+	text-decoration: none
+}
+
+.quc-mod-sign-up .quc-left-bar .quc-sign-up-type li.quc-current {
+	position: relative;
+	top: -1px;
+	height: 52px;
+	width: 156px;
+	background: url(../images/sp.png) -240px -280px;
+	border: 0
+}
+
+.quc-mod-sign-up .quc-left-bar .quc-sign-up-type .quc-current a {
+	color: #fff;
+	border: 1px solid #88cde2;
+	border-right: 0;
+	cursor: default;
+	background: #a7deef;
+	padding-left: 16px;
+	box-shadow: inset 0 1px hsla(0,0%,100%,.35)
+}
+
+.quc-mod-sign-up .quc-left-bar .quc-icon {
+	display: inline-block;
+	width: 20px;
+	height: 26px;
+	margin: 0 10px 4px 0;
+	background: url(../images/sp.png);
+	vertical-align: middle
+}
+
+.quc-mod-sign-up .quc-left-bar .quc-icon-email {
+	background-position: -440px -490px
+}
+
+.quc-mod-sign-up .quc-left-bar .quc-icon-mobile {
+	background-position: -440px -516px
+}
+
+.quc-mod-sign-up .quc-left-bar .quc-icon-username {
+	background-position: -440px -542px
+}
+
+.quc-mod-sign-up .quc-left-bar .quc-current .quc-icon-email {
+	background-position: -440px -410px
+}
+
+.quc-mod-sign-up .quc-left-bar .quc-current .quc-icon-mobile {
+	background-position: -440px -436px
+}
+
+.quc-mod-sign-up .quc-left-bar .quc-current .quc-icon-username {
+	background-position: -440px -462px
+}
+
+.quc-mod-sign-up .quc-main {
+	float: left;
+	width: 380px;
+	padding: 0 0 20px 20px;
+	border-left: 1px solid #e4ebec;
+	background: #fff;
+	box-shadow: -7px 0 5px -3px #f8f9f9
+}
+
+.quc-mod-sign-up .quc-main .quc-label {
+	display: inline-block;
+	width: 60px;
+	margin-right: 10px;
+	line-height: 31px;
+	font-size: 14px;
+	text-align: right;
+	color: #333
+}
+
+.quc-mod-sign-up .quc-tip-wrapper {
+	height: 21px;
+	line-height: 21px;
+	padding: 3px 0 0 75px
+}
+
+.quc-mod-sign-up .quc-tip-wrapper .quc-tip {
+	display: none
+}
+
+.quc-mod-sign-up .quc-field {
+	color: #959393
+}
+
+.quc-mod-sign-up .quc-field .quc-input-bg {
+	margin: 3px 0 4px
+}
+
+.quc-mod-sign-up .quc-field .quc-tip-icon {
+	visibility: hidden
+}
+
+.quc-mod-sign-up .quc-field .quc-tip-icon-correct,.quc-mod-sign-up .quc-field .quc-tip-icon-incorrect {
+	visibility: visible
+}
+
+.quc-mod-sign-up .quc-field .quc-tip {
+	margin-left: 75px;
+	line-height: 1;
+	*line-height: 14px
+}
+
+.quc-mod-sign-up .quc-field-sms-token .quc-mobile-tip {
+	float: right;
+	margin-right: 50px
+}
+
+.quc-mod-sign-up .quc-field-sms-token .quc-tip {
+	*float: left
+}
+
+.quc-mod-sign-up .quc-field-mobile .quc-button {
+	margin: 0 4px 1px 1px
+}
+
+.quc-mod-sign-up .quc-field-captcha {
+	display: none
+}
+
+.quc-mod-sign-up .quc-captcha-img {
+	width: 99px;
+	height: 36px;
+	margin: 3px 0 4px 2px;
+	vertical-align: middle
+}
+
+.quc-mod-sign-up .quc-link-captcha-change {
+	margin-left: 10px
+}
+
+.quc-mod-sign-up .quc-captcha-change {
+	cursor: pointer
+}
+
+.quc-mod-sign-up .quc-button-sign-up {
+	margin: 12px 0 0 74px
+}
+
+.quc-mod-sign-up .quc-field-licence {
+	margin: 9px 0 0 75px;
+	line-height: 18px
+}
+
+.quc-mod-sign-up .quc-field-licence label span {
+	vertical-align: middle
+}
+
+.quc-mod-sign-up .quc-login {
+	position: relative;
+	width: 120px;
+	margin: -18px 0 0 -145px;
+	line-height: 18px
+}
+
+.quc-mobile-Statelist .quc-list-item .quc-left-tip,.quc-mobile-Statelist .quc-list-item .quc-right-tip {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.quc-mobile-Statelist .quc-list-item .quc-left-tip {
+	width: 40px;
+	margin-left: 20px
+}
+
+.quc-mobile-Statelist .quc-list-item .quc-right-tip {
+	margin-left: 60px
+}
+
+.quc-mod-sign-in .quc-tip-wrapper {
+	background-image: url(../images/logintext.png)
+}
+
+.quc-mod-sign-up .quc-tip-wrapper {
+	background-image: url(../images/regtext.png)
+}
+
+.quc-mod-sign-in,.quc-mod-sign-up {
+	position: relative
+}
+
+.quc-mod-sign-in input::-webkit-input-placeholder,.quc-mod-sign-up input::-webkit-input-placeholder {
+	color: #a9a9a9
+}
+
+.quc-mod-sign-in input:-moz-placeholder,.quc-mod-sign-up input:-moz-placeholder {
+	color: #a9a9a9
+}
+
+.quc-mod-sign-in input::-moz-placeholder,.quc-mod-sign-up input::-moz-placeholder {
+	color: #a9a9a9
+}
+
+.quc-mod-sign-in input:-ms-input-placeholder,.quc-mod-sign-up input:-ms-input-placeholder {
+	color: #a9a9a9
+}
+
+.quc-mod-sign-in .quc-left-bar,.quc-mod-sign-up .quc-left-bar {
+	display: none
+}
+
+.quc-mod-sign-in .quc-main,.quc-mod-sign-up .quc-main {
+	margin-left: 45px
+}
+
+.quc-mod-sign-in .quc-tip-wrapper,.quc-mod-sign-up .quc-tip-wrapper {
+	width: 315px;
+	height: 75px;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0;
+	margin-left: 75px
+}
+
+.quc-mod-sign-in .quc-field,.quc-mod-sign-up .quc-field {
+	margin-bottom: 18px
+}
+
+.quc-mod-sign-in .quc-input-long,.quc-mod-sign-in .quc-input-short,.quc-mod-sign-up .quc-input-long,.quc-mod-sign-up .quc-input-short {
+	height: 45px;
+	padding: 0;
+	position: relative
+}
+
+.quc-mod-sign-in .quc-field-keep-alive,.quc-mod-sign-in .quc-input-long,.quc-mod-sign-up .quc-field-keep-alive,.quc-mod-sign-up .quc-input-long {
+	width: 313px
+}
+
+.quc-mod-sign-in .quc-input-short .quc-input-bg,.quc-mod-sign-up .quc-input-short .quc-input-bg {
+	width: 153px;
+	height: 43px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	zoom: 1\9;
+	display: block\9
+}
+
+.quc-mod-sign-in .quc-input-short .quc-input-bg-focus,.quc-mod-sign-up .quc-input-short .quc-input-bg-focus {
+	border: 1px solid #ff823c
+}
+
+.quc-mod-sign-in .quc-label,.quc-mod-sign-up .quc-label {
+	background-image: url(../images/smallbtn.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	line-height: 600px;
+	position: absolute;
+	overflow: hidden;
+	left: 10px;
+	top: 13px
+}
+
+.quc-mod-sign-in .quc-input-long .quc-input-bg,.quc-mod-sign-up .quc-input-long .quc-input-bg {
+	width: 313px;
+	height: 43px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	position: relative;
+	zoom: 1\9;
+	display: block\9
+}
+
+.quc-mod-sign-in .quc-input-long .quc-input-bg-focus,.quc-mod-sign-up .quc-input-long .quc-input-bg-focus {
+	border: 1px solid #ff823c
+}
+
+.quc-mod-sign-in .quc-field-account .quc-label,.quc-mod-sign-in .quc-field-username .quc-label,.quc-mod-sign-up .quc-field-account .quc-label,.quc-mod-sign-up .quc-field-username .quc-label {
+	background-position: -5px -298px;
+	width: 23px;
+	height: 22px
+}
+
+.quc-mod-sign-in .quc-field-password .quc-label,.quc-mod-sign-in .quc-field-password-again .quc-label,.quc-mod-sign-up .quc-field-password .quc-label,.quc-mod-sign-up .quc-field-password-again .quc-label {
+	background-position: -5px -187px;
+	width: 23px;
+	height: 22px
+}
+
+.quc-mod-sign-in .quc-field-captcha .quc-label,.quc-mod-sign-up .quc-field-captcha .quc-label {
+	display: none
+}
+
+.quc-mod-sign-in .quc-field-captcha .quc-input,.quc-mod-sign-up .quc-field-captcha .quc-input {
+	width: 138px;
+	margin-left: 15px
+}
+
+.quc-mod-sign-in .quc-field-captcha .quc-captcha-img,.quc-mod-sign-up .quc-field-captcha .quc-captcha-img {
+	position: absolute;
+	left: 166px;
+	top: 5px
+}
+
+.quc-mod-sign-in .quc-field-captcha .quc-captcha-change-link,.quc-mod-sign-in .quc-field-captcha .quc-link-captcha-change,.quc-mod-sign-up .quc-field-captcha .quc-captcha-change-link,.quc-mod-sign-up .quc-field-captcha .quc-link-captcha-change {
+	width: 40px;
+	left: 268px;
+	top: 18px;
+	position: absolute;
+	color: #46a9f2
+}
+
+.quc-mod-sign-in .quc-field-keep-alive,.quc-mod-sign-up .quc-field-keep-alive {
+	margin: -2px 0 30px;
+	padding: 0;
+	color: #666
+}
+
+.quc-mod-sign-in .quc-field-keep-alive .forgetpass,.quc-mod-sign-up .quc-field-keep-alive .forgetpass {
+	margin-left: 162px;
+	color: #666
+}
+
+.quc-mod-sign-in .quc-field-keep-alive .forgetpass:hover,.quc-mod-sign-up .quc-field-keep-alive .forgetpass:hover {
+	color: #ff6310
+}
+
+.quc-mod-sign-in .quc-third-part-icon,.quc-mod-sign-up .quc-third-part-icon {
+	background-image: url(../images/smallbtn.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	padding-right: 9px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-sina,.quc-mod-sign-in .quc-third-part-icon-sina:hover,.quc-mod-sign-up .quc-third-part-icon-sina,.quc-mod-sign-up .quc-third-part-icon-sina:hover {
+	background-position: -5px -247px;
+	width: 18px;
+	height: 16px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-renren,.quc-mod-sign-in .quc-third-part-icon-renren:hover,.quc-mod-sign-up .quc-third-part-icon-renren,.quc-mod-sign-up .quc-third-part-icon-renren:hover {
+	background-position: -5px -219px;
+	width: 18px;
+	height: 18px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-fetion,.quc-mod-sign-in .quc-third-part-icon-fetion:hover,.quc-mod-sign-up .quc-third-part-icon-fetion,.quc-mod-sign-up .quc-third-part-icon-fetion:hover {
+	background-position: -5px -159px;
+	width: 16px;
+	height: 18px
+}
+
+.quc-mod-sign-in .quc-third-part-icon-telecom,.quc-mod-sign-in .quc-third-part-icon-telecom:hover,.quc-mod-sign-up .quc-third-part-icon-telecom,.quc-mod-sign-up .quc-third-part-icon-telecom:hover {
+	background-position: -5px -273px;
+	width: 19px;
+	height: 15px
+}
+
+.quc-wrapper .quc-input-bg {
+	background: 0
+}
+
+.quc-wrapper .quc-field-submit,.quc-wrapper .quc-input {
+	padding: 0
+}
+
+.quc-wrapper .quc-input {
+	width: 268px;
+	height: 24px;
+	margin: 11px 0 11px 45px;
+	line-height: 24px;
+	color: #333
+}
+
+.quc-wrapper .quc-tip {
+	color: #999
+}
+
+.quc-wrapper .quc-global-error .quc-tip-error,.quc-wrapper .quc-mod-sign-in .quc-tip-error {
+	width: 315px;
+	bottom: 114px;
+	position: absolute;
+	text-align: center
+}
+
+.quc-wrapper .quc-global-error .quc-tip-error::before,.quc-wrapper .quc-mod-sign-in .quc-tip-error::before,.quc-wrapper .quc-tip-icon-incorrect {
+	background-position: -5px -134px;
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/smallbtn.png);
+	display: inline-block;
+	background-repeat: no-repeat
+}
+
+.quc-wrapper .quc-global-error .quc-tip-error::before,.quc-wrapper .quc-mod-sign-in .quc-tip-error::before {
+	content: ' ';
+	top: 3px;
+	position: relative
+}
+
+.quc-wrapper .quc-global-error .quc-tip-error:empty::before,.quc-wrapper .quc-mod-sign-in .quc-tip-error:empty::before {
+	content: none
+}
+
+.quc-wrapper .quc-tip-error {
+	color: #f33616
+}
+
+.quc-wrapper .quc-tip-icon-correct {
+	background-image: url(../images/smallbtn.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-position: -5px -110px;
+	width: 15px;
+	height: 15px
+}
+
+.quc-wrapper .quc-tip-icon {
+	right: -27px;
+	top: 18px;
+	position: absolute
+}
+
+.quc-wrapper .quc-button-sign-in {
+	background-image: url(../images/bigbtn.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-position: -5px -5px;
+	width: 315px;
+	height: 46px
+}
+
+.quc-wrapper .quc-button-sign-in:hover {
+	background-position: -5px -61px;
+	width: 315px;
+	height: 46px
+}
+
+.quc-wrapper .quc-button-sign-in:active,.quc-wrapper .quc-button-sign-in:focus {
+	background-position: -5px -117px;
+	width: 315px;
+	height: 46px
+}
+
+.quc-wrapper .quc-field-third-part {
+	padding-left: 60px
+}
+
+.quc-mod-sign-up .quc-left-bar {
+	display: none !important
+}
+
+.quc-mod-sign-up .quc-main {
+	padding-left: 30px;
+	border: 0;
+	box-shadow: none
+}
+
+.quc-mod-sign-up .quc-main .quc-tip-wrapper {
+	margin-left: 0
+}
+
+.quc-mod-sign-up .quc-main .quc-label {
+	background-image: url(../images/smallbtn.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	line-height: 600px;
+	position: absolute;
+	overflow: hidden;
+	left: 10px;
+	top: 13px
+}
+
+.quc-mod-sign-up .quc-field {
+	position: relative;
+	margin-bottom: 26px
+}
+
+.quc-mod-sign-up .quc-field .quc-input-bg {
+	margin: 0
+}
+
+.quc-mod-sign-up .quc-field .quc-tip {
+	width: 315px;
+	margin-left: 2px;
+	bottom: -21px;
+	left: 0;
+	display: block;
+	position: absolute
+}
+
+.quc-mod-sign-up .quc-field-captcha .quc-label,.quc-mod-sign-up .quc-field-captcha .quc-tip-icon-correct,.quc-mod-sign-up .quc-field-captcha .quc-tip-icon-incorrect {
+	display: none
+}
+
+.quc-mod-sign-up .quc-button-sign-up {
+	margin: 20px 0 0;
+	background-image: url(../images/bigbtn.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-position: -5px -229px;
+	width: 315px;
+	height: 46px
+}
+
+.quc-mod-sign-up .quc-link-login,.quc-mod-sign-up .quc-login {
+	display: none
+}
+
+.quc-mod-sign-up .quc-button-sign-up:active,.quc-mod-sign-up .quc-button-sign-up:focus,.quc-mod-sign-up .quc-button-sign-up:hover {
+	background-position: -5px -285px;
+	width: 315px;
+	height: 46px
+}
+
+.quc-mod-sign-up .quc-global-error .quc-tip-error {
+	bottom: 98px
+}
+
+.quc-mod-sign-up .quc-tip-error::before {
+	content: ''
+}
+
+.quc-mod-sign-up .quc-field-licence {
+	margin: -13px 0 0 45px
+}
+
+.quc-field-keep-alive input,.quc-field-licence input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 16px;
+	height: 16px;
+	margin: 0;
+	cursor: pointer;
+	vertical-align: bottom;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	box-sizing: border-box;
+	position: relative
+}
+
+.quc-field-keep-alive input:checked::after,.quc-field-licence input:checked::after {
+	content: ' ';
+	background-image: url(../images/smallbtn.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-position: -4px -3px;
+	width: 14px;
+	height: 14px
+}

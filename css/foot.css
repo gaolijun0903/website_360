@@ -1,0 +1,49 @@
+.foot {
+	height: 125px;
+	width: 100%;
+	min-width: 1110px;
+	background: #f2f2f2
+}
+
+.foot_logo {
+	float: left;
+	width: 194px;
+	height: 52px;
+	margin: 33px 0 0;
+	background: #eee url() no-repeat
+}
+
+.c-textHide {
+	text-indent: -1000px;
+	overflow: hidden
+}
+
+.foot_small_logo {
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	margin: 42px 0 0 26px;
+	background: url('../images/wen.png') no-repeat
+}
+
+.foot_text {
+	float: right;
+	margin-top: 32px;
+	text-align: right
+}
+
+.foot_text p {
+	margin-bottom: 10px
+}
+
+.foot_text a,.foot_text p {
+	color: #333
+}
+
+.foot_text a,.foot_text span {
+	margin-left: 35px
+}
+
+.thinScreen .foot .wrap {
+	width: 1110px
+}

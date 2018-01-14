@@ -1,0 +1,270 @@
+body,div,ul,li,ol,dl,dt,dd,p,form,h1,h2,h3,h4,h5,span,a,em,i,strong,b,input,textarea,select,img {
+	border: 0 none;
+	margin: 0;
+	outline: medium none;
+	padding: 0
+}
+
+input {
+	outline: medium none
+}
+
+li {
+	list-style: outside none none
+}
+
+img {
+	border: 0 none;
+	vertical-align: middle;
+	border: 0
+}
+
+em,i,b {
+	font-style: normal
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none
+}
+
+body {
+	font-family: "Microsoft YaHei";
+	font-size: 12px
+}
+
+.clearfix {
+	*zoom: 1
+}
+
+.clearfix:after {
+	content: '.';
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	display: block;
+	font-size: 0
+}
+
+.clear {
+	clear: both;
+	line-height: 0;
+	height: 0;
+	font-size: 0
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+a,body {
+	color: #333
+}
+
+.nav-top .top_logAfter {
+	line-height: 30px;
+	float: right;
+	color: #c7c7c7
+}
+
+.all-list .all-list-01 {
+	margin-right: -20px;
+	clear: both
+}
+
+.all {
+	margin-bottom: 45px;
+	overflow: hidden
+}
+
+.all-list .all-list-more:hover {
+	background-position: 0 0;
+	color: #fff;
+	text-decoration: none
+}
+
+.gamelist-bar {
+	width: 4px;
+	height: 15px;
+	background-position: -5px -5px;
+	position: relative;
+	top: 3px;
+	margin-right: 8px
+}
+
+.TabBox {
+	overflow-y: auto !important
+}
+
+.TabBox .infobox {
+	width: 712px !important;
+	height: auto !important;
+	top: 0 !important;
+	left: 0 !important;
+	margin: 10px;
+	position: inherit !important
+}
+
+.TabBox .infobox p {
+	color: #333 !important
+}
+
+.middleLeft .linkbox {
+	height: 194px !important
+}
+
+.reset {
+	line-height: 14px
+}
+
+.pagination a,.pagination span {
+	width: auto !important;
+	min-width: 34px;
+	padding: 2px 5px
+}
+
+.pagination a.active {
+	color: #fff;
+	background-color: #ff823c;
+	cursor: default
+}
+
+.specialgames-box ul a.toright .info {
+	right: 0
+}
+
+.specialgames-box ul a.toright .img-con {
+	left: 0
+}
+
+.ng_h_r .good_recom_ul li {
+	margin-right: 1px !important
+}
+
+.ng_r_d_left .good_recom_ul li {
+	margin-right: 0 !important
+}
+
+.mygame_item .mygame_info strong a {
+	font-size: 14px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+	font-weight: bold
+}
+
+.mygame_item .mygame_info .btnbox .btn_btn4 {
+	margin: 0 15px 0 0 !important
+}
+
+.textc,.textc a,a.textc {
+	color: #393939 !important
+}
+
+.notvip {
+	background-image: url("../images/novip.png");
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+	background-color: rgba(0,0,0,0);
+	display: inline-block;
+	height: 18px;
+	margin: 0 2px 0 0;
+	vertical-align: middle;
+	width: 18px
+}
+
+.hc-main {
+	position: relative;
+	margin: 0 auto;
+	height: auto
+}
+
+.hc-main .quc-tip-wrapper,.hc-main .quc-main {
+	float: none;
+	margin: 0 auto
+}
+
+.page a {
+	display: inline-block;
+	margin: 0 4px;
+	padding: 2px 10px;
+	border: 1px solid #d9d9d9;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	color: #333
+}
+
+.page a:hover,.page a.active {
+	background: #b60005;
+	border-color: #670000;
+	color: #fff;
+	text-decoration: none
+}
+
+.pagenav a.active {
+	color: #fff;
+	background-color: #0cacff;
+	border-color: #0cacff
+}
+
+.pagenav {
+	padding: 20px 0 !important
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px
+}
+
+::-webkit-scrollbar-button:vertical {
+	display: none
+}
+
+::-webkit-scrollbar-track,::-webkit-scrollbar-corner {
+	background-color: #e2e2e2
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: rgba(0,0,0,.3)
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+	background-color: rgba(0,0,0,.35)
+}
+
+::-webkit-scrollbar-thumb:vertical:active {
+	background-color: rgba(0,0,0,.38)
+}
+
+.qrlogo {
+	display: none
+}
+
+.qrcon p {
+	margin-top: 25px
+}
+
+.page-subtit {
+	height: 350px !important
+}
+
+.rank-item li.cur p {
+	word-wrap: break-word;
+	word-break: break-all;
+	white-space: nowrap
+}
+
+.page-left .qrcode,.gamedownload .qrcode {
+	width: 190px;
+	height: 190px;
+	margin: 16px auto 0
+}
+
+.page-left .qrcode {
+	margin-bottom: 25px;
+	]

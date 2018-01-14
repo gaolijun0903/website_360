@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  <meta name="renderer" content="webkit" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+  <meta name="keywords" content="" /> 
+  <meta name="description" content="" /> 
+  <title>5678</title> 
+  <link href="./css/reset.css" rel="stylesheet" type="text/css" />
+  <link href="./css/swiper-3.4.2.min.css" rel="stylesheet" type="text/css" />
+  <link href="./css/nav.css" rel="stylesheet" type="text/css" />
+  <link href="./css/index.css" rel="stylesheet" type="text/css" />
+  <link href="./css/foot.css" rel="stylesheet" type="text/css" /> 
+  <script src="./js/jquery-1.7.2.min.js" type="text/javascript"></script>
+  <script src="./js/layer.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="./css/layer.css" id="layuicss-layer" /> 
+ </head> 
+ <body> 
+  <div class="nav"> 
+   <!-- 黑色nav --> 
+   <div class="nav-top"> 
+    <div class="wrap clearfix"> 
+     <div class="top-tool"> 
+      <a href="javascript:;">保存桌面</a> 
+      <em>|</em> 
+      <a href="javascript:;">设为主页</a> 
+      <em>|</em> 
+      <a href="javascript:;">游戏大厅，土豪都在用!</a> 
+     </div> 
+     <div class="top-logBefore"> 
+      <a href="javascript:;" class="hc-login">登录</a> 
+      <em>|</em> 
+      <a href="javascript:;" class="hc-reg">注册</a> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- 白色nav --> 
+   <div class="nav-bottom"> 
+    <div class="wrap clearfix"> 
+     <div class="left"> <!--左侧logo-->
+      <a href="#" id="logo" style="background:url(./images/usuallylogo.png) no-repeat;"></a> 
+     </div>
+     <div class="right" id="right"> 
+      <!--右侧导航start-->
+      <ul class="nav-list clearfix">  
+       <li class="active"> <i></i><a href="#">首页</a> </li> 
+       <li> <i></i><a href="#">用户中心</a> </li> 
+       <li> <i></i><a href="#">页游中心</a> </li> 
+       <li> <i></i><a href="#">手游专区</a> </li> 
+       <li> <i></i><em style="left:50px;"></em><a href="#">游戏充值</a> </li> 
+       <li> <i></i><a href="#">盒子下载</a> </li> 
+      </ul> 
+      <!--右侧导航end-->
+      <!--右侧游戏目录菜单start-->
+      <div class="menu-button-po"> 
+       <a class="menu-button" href="javascript:;"> 
+        <div class="icon-gamelist gamelist-button"> 
+         <span class="text">游戏目录</span> 
+        </div> </a> 
+      </div> 
+      <!--右侧游戏目录菜单end-->
+     </div> 
+     
+     <!--游戏目录下拉列表start-->
+     <div class="nav-slide" id="nav-slide"> 
+      <!--下拉标题start--> 
+      <div class="menu-games-div"> 
+       <h2> 
+       	<span class="menu-web"><i class="icon-gamelist gamelist-bar"></i>网页游戏</span> 
+       	<span class="menu-client"><i class="icon-gamelist gamelist-bar"></i>客户端游戏</span> 
+       	<span class="menu-mobile"><i class="icon-gamelist gamelist-bar"></i>手机游戏</span> 
+       	<span class="menu-signs"> 
+       		<i class="icon-gamelist gamelist-hot"></i>热游 
+       		<i class="icon-gamelist gamelist-new"></i>新游
+       		<i class="icon-gamelist gamelist-test"></i>测试 
+       	</span> 
+       </h2> 
+      </div> 
+      <!--下拉标题end--> 
+      <!--下拉内容start--> 
+      <div class="menu-games clearfix"> 
+       <ul class="content-web"> 
+        <li> <a href="#">将天下</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">真武魂</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">上古诸神</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">暗影沙城</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">唐门六道</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">神魔诛天</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">人鱼传说</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">女神领域</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">暗影屠沙</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">天神战</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">战天之怒</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">裁决至尊</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">逐日战歌</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">鬼吹灯之牧野诡事</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">不良人</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">热血江湖传II</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">思美人</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">烈火封神</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">九阴九阳</a> <i class="icon-gamelist"></i> </li> 
+        <li> <a href="#">绝世唐门</a> <i class="icon-gamelist"></i> </li> 
+        <li class="more"> <a href="#" target="_blank">更多游戏&gt;</a> </li> 
+       </ul> 
+       <ul class="content-client"> 
+        <li class="more"> <a href="#" target="_blank">更多游戏&gt;</a> </li> 
+       </ul> 
+       <ul class="content-mobile"> 
+        <li class="more"> <a href="#" target="_blank">更多游戏&gt;</a> </li> 
+       </ul> 
+      </div> 
+      <!--下拉内容end--> 
+     </div> 
+     <!--游戏目录下拉列表end-->
+    </div> 
+   </div> 
+  </div> 
+  
+  <!-- 主体start --> 
+  <div class="index"> 
+   <!--轮播图及登陆框start-->
+   <div class="banner-box"> 
+    <!-- 轮播start --> 
+    <div class="banner ">
+		<div class="swiper1">
+			<ul class="swiper-wrapper">
+				<li class="swiper-slide">
+					<a href="#" target="_blank"><!--轮播图跳转地址-->
+						<img src="./images/adver.jpg" alt=""><!--轮播图地址-->
+					</a>
+				</li>
+				<li class="swiper-slide">
+					<a href="#" target="_blank">
+						<img src="./images/adver(1).jpg" alt="">
+					</a>
+				</li>
+			</ul>
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+    <!-- 轮播end --> 
+    <!-- 登录 框start--> 
+    <div class="login"> 
+     <h3 class="login-h3">账号登录</h3> 
+     <div class="wan-index-login"> 
+      <div class="quc-mod-sign-in quc-mod-normal-sign-in"> 
+       <div class="quc-tip-wrapper"> 
+        <p class="quc-tip"></p> 
+       </div> 
+       <div class="quc-main"> 
+        <form class="quc-form" action="http://www.6668yx.com/" method="post" id="login_form"> 
+         <input type="hidden" name="token" value="2721a540a44b27b6a189211b7c8430ca" /> 
+         <p class="quc-field quc-field-account quc-input-long"> 
+         	<label class="quc-label" for="quc_account_490820445">帐&nbsp;&nbsp;&nbsp;号</label>
+         	<span class="quc-input-bg"> 
+         		<input class="quc-input quc-input-account" type="text" name="userid" placeholder="手机号/用户名/邮箱" maxlength="50" autocomplete="off" id="quc_account_490820445" /> 
+         	</span>
+         </p> 
+         <p class="quc-field quc-field-password quc-input-long"> 
+         	<label class="quc-label" for="quc_password_492636161">密&nbsp;&nbsp;&nbsp;码</label> 
+         	<span class="quc-input-bg"> <input class="quc-input quc-input-password" type="password" name="pwd" maxlength="22" placeholder="请输入您的密码" id="quc_password_492636161" />
+         	</span> 
+         </p> 
+         <p class="quc-field quc-field-captcha quc-input-short clearfix"> 
+         	<label class="quc-label" for="quc_phrase_492636162">验证码</label>
+         	<span class="quc-input-bg"> 
+         		<input class="quc-input quc-input-captcha" type="text" name="imgcode" maxlength="7" autocomplete="off" placeholder="请输入验证码" id="quc_phrase_492636162" /> 
+         	</span> 
+         	<img class="quc-captcha-img quc-captcha-change" alt="验证码" title="点击更换" tabindex="99" src="./images/Captcha" onclick="document.getElementById('img_seccode').src='/Captcha';return false" id="img_seccode" style="cursor: pointer;" /> 
+         	<a class="quc-link quc-captcha-change-link quc-captcha-change" href="#">换一张</a> 
+         </p> 
+         <p class="quc-field quc-field-keep-alive"> 
+         	<label> <input class="quc-checkbox quc-checkbox-keep-alive" type="checkbox" name="iskeepalive" checked="checked" />下次自动登录 </label> 
+         	<a class="forgetpass" href="javascript:;" target="_blank">忘记密码?</a> 
+         </p> 
+         <p class="quc-field quc-field-submit"> <input type="submit" value="登录" class="quc-submit quc-button quc-button-sign-in" /> </p> 
+         <p class="quc-field wan-field-reg">
+         	<input type="text" class="quc-button wan-reg hc-reg" onclick="" />
+         </p> 
+        </form> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- 登录 框end--> 
+   </div> 
+   <!--轮播图及登陆框end-->
+   
+   <!--主体列表区start-->
+   <div class="index-content"> 
+   	<!--精品推荐start-->
+    <div class="recommend"> 
+     <div class="title clearfix"> 
+      <h1>精品推荐</h1> 
+      <div class="news" id="news"> 
+       <div class="bd"> 
+        <ul> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="c-focus loop1"> 
+      <div class="c-focus-area bd1"> 
+        <ul > 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> 
+         	<a href="#" target="_blank"> 
+         		<img class="lazyload" src="./images/flag.jpg" alt="" /> <!--游戏大图地址-->
+         	</a> 
+         	<p class="recommend-title">悟空Q传</p>  <!--游戏名称-->
+         	<span class="i-new"></span>   <!--左上角新游标志-->
+	        <div class="recommend-mask"> 
+	           <div class="recommend-btn"> 
+	            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+	            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+	            <a class="recommend-btn-wd" href="javascript:;">微端</a> 
+	            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+	           </div> 
+	        </div> 
+         </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> 
+         	<a href="#" target="_blank"> 
+         		<img class="lazyload" src="./images/flag.png" alt="" /> 
+         	</a> 
+         	<p class="recommend-title">鬼吹灯</p> 
+         	<span class="i-new"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="recommend-btn-wd" href="javascript:;">微端</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div>
+         </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> 
+         	<a href="#" target="_blank"> 
+         		<img class="lazyload" src="./images/flag(1).jpg" alt="" /> 
+         	</a> 
+         	<p class="recommend-title">修天决</p> 
+         	<span class="i-new"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="recommend-btn-wd" href="javascript:;">微端</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> 
+         </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> 
+         	<a href="#" target="_blank"> 
+         		<img class="lazyload" src="./images/flag(2).jpg" alt="" /> 
+         	</a> 
+         	<p class="recommend-title">绝世武神</p> 
+         	<span class="i-new"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="recommend-btn-wd" href="javascript:;">微端</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div>
+         </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;">
+         	<a href="#" target="_blank">
+         		<img class="lazyload" src="./images/flag(3).jpg" alt="" /> 
+         	</a> 
+         	<p class="recommend-title">核金弹头</p> 
+         	<span class="i-new"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="recommend-btn-wd" href="javascript:;">微端</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> 
+         </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> 
+         	<a href="#" target="_blank"> 
+         		<img class="lazyload" src="./images/flag(4).jpg" alt="" /> 
+         	</a>
+         	<p class="recommend-title">仙姬醉剑</p>
+         	<span class="i-new"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="recommend-btn-wd" href="javascript:;">微端</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> 
+         </li> 
+        </ul>
+      </div> 
+      <span class="hd1"> 
+      	<a class="c-focus-prev prevTop prev" href="javascript:;"></a> 
+      	<a class="c-focus-next nextTop next " href="javascript:;"></a> 
+      </span> 
+     </div> 
+    </div> 
+    <!--精品推荐end-->
+    <!--开服列表 及 热门游戏 及 经典游戏 start-->
+	<div class="hot"> 
+	 <!--开服列表start-->
+     <div class="side servers"> 
+      <div class="title"> 
+       <h1>开服列表</h1> 
+      </div> 
+      <div class="servers-div"> 
+       <!--列表标签start-->
+       <div class="tab" id="kflb"> 
+        <ul class="clearfix"> 
+         <li class="cur"><a>已开新服</a></li> <!--默认当前-->
+         <li><a>新服预告</a></li> 
+         <li><a>新游推荐</a></li> 
+        </ul> 
+       </div> 
+       <!--列表标签end-->
+       <a class="serverAd" href="#" target="_blank"> 
+       	<img src="./images/adver.png" alt="" width="300" height="90" /> <!--广告图片位置-->
+       </a> 
+       <!--列表区域一共有三个，默认显示第一个start-->
+       <!--已开新服列表start--><!--默认展开-->
+       <ul class="list kflbqh" > 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-14</span> <!--开服日期-->
+          	<span class="list-time">11:00</span> <!--开服时间-->
+          	<span class="list-name">龙回三国</span> <!--游戏名称-->
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">38区</span>  <!--所在区服-->
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-14</span> 
+          	<span class="list-time">10:00</span> 
+          	<span class="list-name">开天斩</span> 
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">67区</span>
+          </a> 
+         </div>
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-14</span>
+          	<span class="list-time">10:00</span> 
+          	<span class="list-name">盗墓笔记</span> 
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">27区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-13</span> 
+          	<span class="list-time">18:00</span>
+          	<span class="list-name">刀塔战纪</span> 
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">116区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-13</span> 
+          	<span class="list-time">16:00</span>
+          	<span class="list-name">战天之怒</span> 
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">64区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-13</span> 
+          	<span class="list-time">16:00</span> 
+          	<span class="list-name">女神领域</span> 
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">76区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank">
+          	<span class="list-data">01-13</span> 
+          	<span class="list-time">15:00</span> 
+          	<span class="list-name">核金弹头</span> 
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">12区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-13</span> 
+          	<span class="list-time">14:00</span> 
+          	<span class="list-name">烈火封神</span> 
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">52区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-13</span> 
+          	<span class="list-time">14:00</span>
+          	<span class="list-name">醉玲珑</span> 
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">25区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-13</span> 
+          	<span class="list-time">14:00</span> 
+          	<span class="list-name">九阴九阳</span> 
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">74区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-13</span>
+          	<span class="list-time">14:00</span>
+          	<span class="list-name">蛮荒战神</span>
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">14区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-13</span> 
+          	<span class="list-time">14:00</span> 
+          	<span class="list-name">寒刀</span> 
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">65区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-13</span> 
+          	<span class="list-time">14:00</span> 
+          	<span class="list-name">热血沙城</span> 
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">177区</span>
+          </a> 
+         </div> </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank">
+          	<span class="list-data">01-13</span> 
+          	<span class="list-time">14:00</span> 
+          	<span class="list-name">秦时明月</span> 
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">14区</span>
+          </a> 
+         </div>
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-13</span>
+          	<span class="list-time">14:00</span>
+          	<span class="list-name">将天下</span> 
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">72区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-13</span>
+          	<span class="list-time">14:00</span> 
+          	<span class="list-name">修天决</span> 
+          </a> 
+          <a href="#" target="_blank">
+          	<span class="list-server">13区</span>
+          </a> 
+         </div>
+        </li> 
+       </ul> 
+       <!--已开新服列表end-->
+       <!--新服预告列表start--><!--默认隐藏-->
+       <ul class="list kflbqh" style="display: none;"> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank">
+          	<span class="list-data">01-14</span> <!--开服日期-->
+          	<span class="list-time">13:00</span> <!--开服时间-->
+          	<span class="list-name">暗影沙城</span> <!--游戏名称-->
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">92区</span> <!--所在区服-->
+          </a> 
+         </div>
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-14</span> 
+          	<span class="list-time">13:00</span> 
+          	<span class="list-name">西游破坏神</span>
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">33区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank">
+          	<span class="list-data">01-14</span> 
+          	<span class="list-time">13:00</span> 
+          	<span class="list-name">亚瑟神剑</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">20区</span>
+          </a> 
+         </div>
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank">
+          	<span class="list-data">01-14</span> 
+          	<span class="list-time">14:00</span> 
+          	<span class="list-name">太古遮天</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">23区</span>
+          </a> 
+         </div>
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-14</span> 
+          	<span class="list-time">15:00</span> 
+          	<span class="list-name">圣王传奇</span>
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">40区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-14</span> 
+          	<span class="list-time">15:00</span> 
+          	<span class="list-name">逐日战歌</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">74区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-14</span>
+          	<span class="list-time">16:00</span>
+          	<span class="list-name">神魔诛天</span>
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">87区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-15</span>
+          	<span class="list-time">10:00</span>
+          	<span class="list-name">剑意江湖</span>
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">33区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-15</span> 
+          	<span class="list-time">10:00</span> 
+          	<span class="list-name">开天斩</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">68区</span>
+          </a> 
+         </div> </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank">
+          	<span class="list-data">01-15</span> 
+          	<span class="list-time">10:00</span> 
+          	<span class="list-name">铁血传奇</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">38区</span>
+          </a> 
+         </div>
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank">
+          	<span class="list-data">01-15</span> 
+          	<span class="list-time">11:00</span>
+          	<span class="list-name">悟空Q传</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">8区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank">
+          	<span class="list-data">01-15</span> 
+          	<span class="list-time">11:00</span> 
+          	<span class="list-name">梦回江湖</span>
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">2区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-15</span> 
+          	<span class="list-time">13:00</span>
+          	<span class="list-name">人鱼传说</span>
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">50区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-15</span>
+          	<span class="list-time">13:00</span> 
+          	<span class="list-name">唐门六道</span>
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">94区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank">
+          	<span class="list-data">01-15</span>
+          	<span class="list-time">13:00</span>
+          	<span class="list-name">暗影屠沙</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">87区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-15</span> 
+          	<span class="list-time">13:00</span> 
+          	<span class="list-name">仙姬醉剑</span>
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">21区</span>
+          </a> 
+         </div> 
+        </li> 
+       </ul> 
+       <!--新服预告列表end-->
+       <!--新游推荐列表start--><!--默认隐藏-->
+       <ul class="list kflbqh" style="display:none"> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank">
+          	<span class="list-data">01-13</span><!--开服日期-->
+          	<span class="list-time">15:00</span> <!--开服时间-->
+          	<span class="list-name">核金弹头</span> <!--游戏名称-->
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">12区</span><!--所在区服-->
+          </a> 
+         </div> </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-13</span> 
+          	<span class="list-time">14:00</span> 
+          	<span class="list-name">修天决</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">13区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-13</span> 
+          	<span class="list-time">13:00</span> 
+          	<span class="list-name">绝世武神</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">13服</span>
+          </a> 
+         </div> </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-13</span> 
+          	<span class="list-time">11:00</span> 
+          	<span class="list-name">鬼吹灯</span>
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">7区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank">
+          	<span class="list-data">01-12</span> 
+          	<span class="list-time">13:00</span> 
+          	<span class="list-name">仙姬醉剑</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">20区</span>
+          </a> 
+         </div> </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank">
+          	<span class="list-data">01-12</span> 
+          	<span class="list-time">13:00</span> 
+          	<span class="list-name">绝世武神</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">12服</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-11</span> 
+          	<span class="list-time">11:00</span> 
+          	<span class="list-name">鬼吹灯</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">6区</span>
+          </a> 
+         </div>
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-11</span> 
+          	<span class="list-time">11:00</span> 
+          	<span class="list-name">悟空Q传</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">7区</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-10</span> 
+          	<span class="list-time">14:00</span> 
+          	<span class="list-name">修天决</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">12区</span>
+          </a> 
+         </div>
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-10</span> 
+          	<span class="list-time">13:00</span>
+          	<span class="list-name">仙姬醉剑</span>
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">19区</span>
+          </a> 
+         </div>
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-10</span> 
+          	<span class="list-time">13:00</span> 
+          	<span class="list-name">绝世武神</span> 
+          </a> 
+          <a href="javascript:;" target="_blank">
+          	<span class="list-server">11服</span>
+          </a> 
+         </div> 
+        </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> 
+          	<span class="list-data">01-09</span>
+          	<span class="list-time">15:00</span> <span class="list-name">核金弹头</span> </a> 
+          <a href="javascript:;" target="_blank"><span class="list-server">11区</span></a> 
+         </div> </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> <span class="list-data">01-09</span> <span class="list-time">13:00</span> <span class="list-name">绝世武神</span> </a> 
+          <a href="javascript:;" target="_blank"><span class="list-server">10服</span></a> 
+         </div> </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> <span class="list-data">01-09</span> <span class="list-time">11:00</span> <span class="list-name">鬼吹灯</span> </a> 
+          <a href="javascript:;" target="_blank"><span class="list-server">5区</span></a> 
+         </div> </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> <span class="list-data">01-08</span> <span class="list-time">14:00</span> <span class="list-name">修天决</span> </a> 
+          <a href="javascript:;" target="_blank"><span class="list-server">11区</span></a> 
+         </div> </li> 
+        <li style="height:34px"> 
+         <div class="list-rank"> 
+          <a href="#" target="_blank"> <span class="list-data">01-08</span> <span class="list-time">13:00</span> <span class="list-name">仙姬醉剑</span> </a> 
+          <a href="javascript:;" target="_blank"><span class="list-server">18区</span></a> 
+         </div> </li> 
+       </ul> 
+       <!--新游推荐列表start-->
+       <!--列表区域一共有三个，默认显示第一个end-->
+      </div> 
+     </div> 
+     <!--开服列表end-->
+     <!--热门游戏 及 经典游戏start-->
+	 <div class="main"> 
+	  <!--热门游戏start-->
+      <div class="title"> 
+       <h1>热门游戏</h1> 
+       <a class="title-more" href="#" target="_blank">更多<span class="i-moreTitle"></span></a> 
+      </div> 
+      <!--热门游戏列表-->
+      <ul class="hot-list clearfix"> 
+       <li> 
+       	<a href="#" target="_blank"> 
+       		<img class="lazyload" src="./images/flag(5).jpg" alt="太古遮天" />  <!--游戏logo图-->
+       	</a> 
+       	<span class="i-type">角色</span>  <!--游戏类别-->
+       	<p class="hot-title">太古遮天</p>  <!--游戏名称-->
+        <div class="hot-mask"> 
+         <div class="hot-text"> 
+          <a class="hot-text-gw" href="#" target="_blank">官网</a> 
+          <a class="hot-text-gift" href="#" target="_blank">礼包</a> 
+          <a class="hot-text-wd" href="javascript:;">微端</a> 
+          <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+         </div> 
+        </div> 
+       </li> 
+       <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/flag(6).jpg" alt="西游破坏神" /> </a> <span class="i-type">角色</span> <p class="hot-title">西游破坏神</p> 
+        <div class="hot-mask"> 
+         <div class="hot-text"> 
+          <a class="hot-text-gw" href="#" target="_blank">官网</a> 
+          <a class="hot-text-gift" href="#" target="_blank">礼包</a> 
+          <a class="hot-text-wd" href="javascript:;">微端</a> 
+          <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+         </div> 
+        </div> </li> 
+       <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/flag(7).jpg" alt="魔域三国" /> </a> <span class="i-type">角色</span> <p class="hot-title">魔域三国</p> 
+        <div class="hot-mask"> 
+         <div class="hot-text"> 
+          <a class="hot-text-gw" href="#" target="_blank">官网</a> 
+          <a class="hot-text-gift" href="#" target="_blank">礼包</a> 
+          <a class="hot-text-wd" href="javascript:;">微端</a> 
+          <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+         </div> 
+        </div> </li> 
+       <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/flag(8).jpg" alt="永恒纪元" /> </a> <span class="i-type">角色</span> <p class="hot-title">永恒纪元</p> 
+        <div class="hot-mask"> 
+         <div class="hot-text"> 
+          <a class="hot-text-gw" href="#" target="_blank">官网</a> 
+          <a class="hot-text-gift" href="#" target="_blank">礼包</a> 
+          <a class="hot-text-wd" href="javascript:;">微端</a> 
+          <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+         </div> 
+        </div> </li> 
+       <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/flag(9).png" alt="成人三国志" /> </a> <span class="i-type">角色</span> <p class="hot-title">成人三国志</p> 
+        <div class="hot-mask"> 
+         <div class="hot-text"> 
+          <a class="hot-text-gw" href="#" target="_blank">官网</a> 
+          <a class="hot-text-gift" href="#" target="_blank">礼包</a> 
+          <a class="hot-text-wd" href="javascript:;">微端</a> 
+          <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+         </div> 
+        </div> </li> 
+       <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/flag(10).jpg" alt="秦时明月" /> </a> <span class="i-type">角色</span> <p class="hot-title">秦时明月</p> 
+        <div class="hot-mask"> 
+         <div class="hot-text"> 
+          <a class="hot-text-gw" href="#" target="_blank">官网</a> 
+          <a class="hot-text-gift" href="#" target="_blank">礼包</a> 
+          <a class="hot-text-wd" href="javascript:;">微端</a> 
+          <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+         </div> 
+        </div> </li> 
+       <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/flag(11).jpg" alt="炎龙传奇（单职业）" /> </a> <span class="i-type">传奇</span> <p class="hot-title">炎龙传奇（单职业）</p> 
+        <div class="hot-mask"> 
+         <div class="hot-text"> 
+          <a class="hot-text-gw" href="#" target="_blank">官网</a> 
+          <a class="hot-text-gift" href="#" target="_blank">礼包</a> 
+          <a class="hot-text-wd" href="javascript:;">微端</a> 
+          <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+         </div> 
+        </div> </li> 
+       <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/flag(12).png" alt="新神将三国" /> </a> <span class="i-type">回合</span> <p class="hot-title">新神将三国</p> 
+        <div class="hot-mask"> 
+         <div class="hot-text"> 
+          <a class="hot-text-gw" href="#" target="_blank">官网</a> 
+          <a class="hot-text-gift" href="#" target="_blank">礼包</a> 
+          <a class="hot-text-wd" href="javascript:;">微端</a> 
+          <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+         </div> 
+        </div> </li> 
+      </ul> 
+      <!--热门游戏 end-->
+      <!--经典游戏start-->
+      <div class="title"> 
+       <h1>经典游戏</h1> 
+       <a class="title-more" href="#" target="_blank">更多<span class="i-moreTitle"></span></a> 
+      </div> 
+      <!--经典游戏列表-->
+      <ul class="classics-list clearfix"> 
+       <li> 
+       	<a href="#" target="_blank"> 
+       		<img class="lazyload" src="./images/classics.png" alt="悟空Q传" /> <!--游戏logo及名称-->
+       	</a>
+       </li> 
+       <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/classics(1).png" alt="鬼吹灯" /> </a> </li> 
+       <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/classics.jpg" alt="修天决" /> </a> </li> 
+       <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/classics(2).jpg" alt="绝世武神" /> </a> </li> 
+       <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/classics(3).jpg" alt="核金弹头" /> </a> </li> 
+       <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/classics(4).png" alt="仙姬醉剑" /> </a> </li> 
+       <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/classics(5).png" alt="太古遮天" /> </a> </li> 
+       <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/classics(6).png" alt="西游破坏神" /> </a> </li> 
+      </ul> 
+      <!--经典游戏end-->
+	 </div> 
+     <!--热门游戏 及 经典游戏end-->
+	</div> 
+    <!--开服列表 及 热门游戏 及 经典游戏 end-->
+    <!--精品新游start-->
+	<div class="newgame"> 
+     <div class="newgame cc"> 
+      <div class="title"> 
+       <h1>精品新游</h1> 
+       <a class="title-more" href="#" target="_blank">更多<span class="i-moreTitle"></span></a> 
+      </div> 
+     </div> 
+     <div class="newgame-slider c-focus loop2"> 
+      <div class="c-focus-area bd2"> 
+      	<!--精品新游列表start-->
+        <ul> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> 
+         	<a href="#" target="_blank">
+         		<img src="./images/flag(13).jpg" alt="我是皇" /> <!--游戏logo-->
+         	</a> 
+         	<p class="recommend-title">我是皇</p> <!-- 游戏名称-->
+         	<span class="i-hot"></span>  <!-- hot标签-->
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div>
+         </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;">
+         	<a href="#" target="_blank">
+         		<img src="./images/flag(14).jpg" alt="全职战神" />
+         	</a> 
+     		<p class="recommend-title">全职战神</p> 
+     		<span class="i-hot"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> <a href="#" target="_blank"><img src="./images/flag(15).jpg" alt="修仙记" /></a> <p class="recommend-title">修仙记</p> <span class="i-hot"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> <a href="#" target="_blank"><img src="./images/flag(16).png" alt="第一舰队" /></a> <p class="recommend-title">第一舰队</p> <span class="i-hot"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> <a href="#" target="_blank"><img src="./images/flag(17).jpg" alt="盗墓笔记" /></a> <p class="recommend-title">盗墓笔记</p> <span class="i-hot"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> <a href="#" target="_blank"><img src="./images/flag(18).jpg" alt="刺秦秘史" /></a> <p class="recommend-title">刺秦秘史</p> <span class="i-hot"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> <a href="#" target="_blank"><img src="./images/flag(19).jpg" alt="奇迹重生" /></a> <p class="recommend-title">奇迹重生</p> <span class="i-hot"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> <a href="#" target="_blank"><img src="./images/flag(20).jpg" alt="醉玲珑" /></a> <p class="recommend-title">醉玲珑</p> <span class="i-hot"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> <a href="#" target="_blank"><img src="./images/flag(21).jpg" alt="蜀山外传" /></a> <p class="recommend-title">蜀山外传</p> <span class="i-hot"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> <a href="#" target="_blank"><img src="./images/flag(22).jpg" alt="蛮荒战神" /></a> <p class="recommend-title">蛮荒战神</p> <span class="i-hot"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> <a href="#" target="_blank"><img src="./images/flag(23).png" alt="玛雅传说" /></a> <p class="recommend-title">玛雅传说</p> <span class="i-hot"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> <a href="#" target="_blank"><img src="./images/flag(24).png" alt="烈火永恒" /></a> <p class="recommend-title">烈火永恒</p> <span class="i-hot"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> <a href="#" target="_blank"><img src="./images/flag(25).png" alt="暗黑Q传" /></a> <p class="recommend-title">暗黑Q传</p> <span class="i-hot"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> </li> 
+         <li class="c-focus-cell" style="float: left; width: 235px;"> <a href="#" target="_blank"><img src="./images/flag(26).png" alt="皓月屠龙之裁决三国" /></a> <p class="recommend-title">皓月屠龙之裁决三国</p> <span class="i-hot"></span> 
+          <div class="recommend-mask"> 
+           <div class="recommend-btn"> 
+            <a class="recommend-btn-gw" href="#" target="_blank">官网</a> 
+            <a class="recommend-btn-gift" href="#" target="_blank">礼包</a> 
+            <a class="btn-org" href="#" target="_blank">进入游戏</a> 
+           </div> 
+          </div> </li> 
+        </ul>
+        <!--精品新游列表end-->
+      </div> 
+      <span class="hd2">
+      	<a class="c-focus-prev prevTop prev" href="javascript:void(0);"></a> 
+      	<a class="c-focus-next nextTop next" href="javascript:void(0);"></a> 
+      </span> 
+     </div> 
+    </div> 
+    <!--精品新游end-->
+    <!--全部游戏 及 热游排行start--> 
+    <div class="all clearfix"> 
+     <div class="side hotrank"> 
+      <div class="title"> 
+       <h1>热游排行</h1> 
+      </div> 
+      <!--热游排行列表start-->
+      <div class="hotrank-div"> 
+       <ul class="list"> 
+        <li> 
+        	<a class="list-rank list-rank-01 list-rank-cur" href="#" target="_blank"> <!--默认展开-->
+        		<span class="list-num">1</span>   <!--排行名次-->
+        		<img class="list-img" src="./images/logo.png" alt="太古遮天" /> <!--游戏logo-->
+        		<span class="list-name">太古遮天</span> <!--游戏名称-->
+        		<span class="list-type">角色</span> <!--游戏类型-->
+        		<span class="btn-org">进入游戏</span> <!-- 进入游戏按钮-->
+        	</a> 
+        </li> 
+        <li> 
+        	<a class="list-rank list-rank-02 " href="#" target="_blank"> 
+        		<span class="list-num">2</span> 
+        		<img class="list-img" src="./images/logo(1).png" alt="西游破坏神" />
+        		<span class="list-name">西游破坏神</span> 
+        		<span class="list-type">角色</span> 
+        		<span class="btn-org">进入游戏</span> 
+        	</a> 
+        </li> 
+        <li>
+		    <a class="list-rank list-rank-02 " href="#" target="_blank">    <span class="list-num">2</span> 
+		        <img class="list-img" src="./images/logo(1).png" alt="西游破坏神">   <span class="list-name">西游破坏神</span>    <span class="list-type">角色</span>   <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-03 " href="#" target="_blank"> <span class="list-num">3</span> 
+		        <img class="list-img" src="./images/logo(2).png" alt="魔域三国"> <span class="list-name">魔域三国</span>  <span class="list-type">角色</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-04 " href="#" target="_blank"> <span class="list-num">4</span> 
+		        <img class="list-img" src="./images/logo(3).png" alt="永恒纪元"> <span class="list-name">永恒纪元</span>  <span class="list-type">角色</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-05 " href="#" target="_blank"> <span class="list-num">5</span> 
+		        <img class="list-img" src="./images/logo(4).png" alt="成人三国志"> <span class="list-name">成人三国志</span>  <span class="list-type">角色</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-06 " href="#" target="_blank"> <span class="list-num">6</span> 
+		        <img class="list-img" src="./images/logo(5).png" alt="秦时明月"> <span class="list-name">秦时明月</span>  <span class="list-type">角色</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-07 " href="#" target="_blank"> <span class="list-num">7</span> 
+		        <img class="list-img" src="./images/logo(6).png" alt="炎龙传奇（单职业）"> <span class="list-name">炎龙传奇（单职业）</span>  <span class="list-type">传奇</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-08 " href="#" target="_blank"> <span class="list-num">8</span> 
+		        <img class="list-img" src="./images/logo(7).png" alt="新神将三国"> <span class="list-name">新神将三国</span>  <span class="list-type">回合</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-09 " href="#" target="_blank"> <span class="list-num">9</span> 
+		        <img class="list-img" src="./images/logo(8).png" alt="将天下"> <span class="list-name">将天下</span>  <span class="list-type">回合</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-010 " href="#" target="_blank"> <span class="list-num">10</span> 
+		        <img class="list-img" src="./images/logo(9).png" alt="真武魂"> <span class="list-name">真武魂</span>  <span class="list-type">回合</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-011 " href="#" target="_blank"> <span class="list-num">11</span> 
+		        <img class="list-img" src="./images/logo(10).png" alt="上古诸神"> <span class="list-name">上古诸神</span>  <span class="list-type">玄幻</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-012 " href="#" target="_blank"> <span class="list-num">12</span> 
+		        <img class="list-img" src="./images/logo(11).png" alt="暗影沙城"> <span class="list-name">暗影沙城</span>  <span class="list-type">传奇</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-013 " href="#" target="_blank"> <span class="list-num">13</span> 
+		        <img class="list-img" src="./images/logo(12).png" alt="唐门六道"> <span class="list-name">唐门六道</span>  <span class="list-type">角色</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-014 " href="#" target="_blank"> <span class="list-num">14</span> 
+		        <img class="list-img" src="./images/logo(13).png" alt="神魔诛天"> <span class="list-name">神魔诛天</span>  <span class="list-type">玄幻</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-015 " href="#" target="_blank"> <span class="list-num">15</span> 
+		        <img class="list-img" src="./images/logo(14).png" alt="人鱼传说"> <span class="list-name">人鱼传说</span>  <span class="list-type">角色</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-016 " href="#" target="_blank"> <span class="list-num">16</span> 
+		        <img class="list-img" src="./images/logo.jpg" alt="女神领域"> <span class="list-name">女神领域</span>  <span class="list-type">角色</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-017 " href="#" target="_blank"> <span class="list-num">17</span> 
+		        <img class="list-img" src="./images/logo(15).png" alt="暗影屠沙"> <span class="list-name">暗影屠沙</span>  <span class="list-type">传奇</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-018 " href="#" target="_blank"> <span class="list-num">18</span> 
+		        <img class="list-img" src="./images/logo(16).png" alt="天神战"> <span class="list-name">天神战</span>  <span class="list-type">传奇</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-019 " href="#" target="_blank"> <span class="list-num">19</span> 
+		        <img class="list-img" src="./images/logo(17).png" alt="战天之怒"> <span class="list-name">战天之怒</span>  <span class="list-type">传奇</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+		<li>
+		    <a class="list-rank list-rank-020 " href="#" target="_blank"> <span class="list-num">20</span> 
+		        <img class="list-img" src="./images/logo(18).png" alt="裁决至尊"> <span class="list-name">裁决至尊</span>  <span class="list-type">传奇</span>  <span class="btn-org">进入游戏</span> 
+		    </a>
+		</li>
+       </ul> 
+      </div> 
+      <!--热游排行列表end-->
+     </div> 
+     
+     <!--全部游戏start-->
+     <div class="main"> 
+      <div class="title"> 
+       <h1>全部游戏</h1> 
+       <a class="title-more" href="#" target="_blank">更多<span class="i-moreTitle"></span></a> 
+      </div> 
+      <!---回合列表 start--> 
+      <div class="all-list clearfix"> 
+      	<!--游戏logo图片列表 start-->
+       <ul class="all-list-img clearfix"> 
+        <li> 
+        	<a href="#" target="_blank">
+        		<img class="lazyload" src="./images/logo(8).png" alt="将天下" /> <!--logo图及名称-->
+        	</a>
+        </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(9).png" alt="真武魂" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(19).png" alt="刀塔战纪" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(20).png" alt="新龙将2" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(7).png" alt="新神将三国" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(21).png" alt="龙回三国" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(22).png" alt="至尊宝" /> </a> </li> 
+       </ul> 
+       <!--游戏logo图片列表 end-->
+       <a class="all-list-more" href="#" target="_blank">更多<br />回合</a> 
+       <!--游戏logo名称列表 start-->
+       <ul class="all-list-01 clearfix"> 
+        <li> <a href="#" target="_blank">剑意江湖</a> </li> 
+        <li> <a href="#" target="_blank">悟空Q传</a> <i class="hot"></i> </li> 
+        <li> <a href="#" target="_blank">仙姬醉剑</a> <i class="hot"></i> </li> 
+        <li> <a href="#" target="_blank">暗黑Q传</a> <i class="new"></i> </li> 
+       </ul> 
+       <!--游戏logo名称列表 end-->
+      </div> 
+      <!---回合列表 end--> 
+      <!---玄幻行列表 start--> 
+	  <div class="all-list clearfix"> 
+       <ul class="all-list-img clearfix"> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(10).png" alt="上古诸神" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(13).png" alt="神魔诛天" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(23).png" alt="古剑奇谭" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(24).png" alt="亚瑟神剑" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(25).png" alt="修天决" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(26).png" alt="醉玲珑" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(27).png" alt="绝世武神" /> </a> </li> 
+       </ul> 
+       <a class="all-list-more" href="#" target="_blank">更多<br />玄幻</a> 
+       <ul class="all-list-01 clearfix"> 
+        <li> <a href="#" target="_blank">玛雅传说</a> <i class="new"></i> </li> 
+        <li> <a href="#" target="_blank">鬼吹灯</a> <i class="hot"></i> </li> 
+        <li> <a href="#" target="_blank">泰坦世界</a> </li> 
+        <li> <a href="#" target="_blank">神魔之道</a> </li> 
+       </ul> 
+      </div> 
+      <!---玄幻行列表 end--> 
+      <!---传奇行列表 start--> 
+      <div class="all-list clearfix"> 
+       <ul class="all-list-img clearfix"> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(11).png" alt="暗影沙城" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(15).png" alt="暗影屠沙" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(16).png" alt="天神战" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(17).png" alt="战天之怒" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(18).png" alt="裁决至尊" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(28).png" alt="逐日战歌" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(29).png" alt="烈火封神" /> </a> </li> 
+       </ul> 
+       <a class="all-list-more" href="#" target="_blank">更多<br />传奇</a> 
+       <ul class="all-list-01 clearfix"> 
+        <li> <a href="#" target="_blank">全民裁决</a> </li> 
+        <li> <a href="#" target="_blank">全职战神</a> <i class="new"></i> </li> 
+        <li> <a href="#" target="_blank">烈火战神</a> </li> 
+        <li> <a href="#" target="_blank">热血屠龙</a> </li> 
+        <li> <a href="#" target="_blank">热血沙城</a> </li> 
+        <li> <a href="#" target="_blank">铁血传奇</a> </li> 
+        <li> <a href="#" target="_blank">开天斩</a> </li> 
+        <li> <a href="#" target="_blank">圣王传奇</a> </li> 
+        <li> <a href="#" target="_blank">炎龙传奇（单职业）</a> </li> 
+        <li> <a href="#" target="_blank">屠龙战神</a> </li> 
+        <li> <a href="#" target="_blank">蛮荒战神</a> <i class="new"></i> </li> 
+        <li> <a href="#" target="_blank">烈火永恒</a> <i class="new"></i> </li> 
+        <li> <a href="#" target="_blank">皓月屠龙之裁决三国</a> <i class="new"></i> </li> 
+        <li> <a href="#" target="_blank">沙城红颜</a> </li> 
+       </ul> 
+      </div> 
+      <!---传奇行列表 end--> 
+      <!---角色行列表 start--> 
+	  <div class="all-list clearfix"> 
+       <ul class="all-list-img clearfix"> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(12).png" alt="唐门六道" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(14).png" alt="人鱼传说" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo.jpg" alt="女神领域" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(30).png" alt="鬼吹灯之牧野诡事" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(31).png" alt="不良人" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(32).png" alt="热血江湖传II" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(33).png" alt="思美人" /> </a> </li> 
+       </ul> 
+       <a class="all-list-more" href="#" target="_blank">更多<br />角色</a> 
+       <ul class="all-list-01 clearfix"> 
+        <li> <a href="#" target="_blank">九阴九阳</a> </li> 
+        <li> <a href="#" target="_blank">绝世唐门</a> </li> 
+        <li> <a href="#" target="_blank">神印王座</a> </li> 
+        <li> <a href="#" target="_blank">怒斩千军</a> </li> 
+        <li> <a href="#" target="_blank">魂斗罗之枪魂</a> </li> 
+        <li> <a href="#" target="_blank">盗墓笔记</a> <i class="new"></i> </li> 
+        <li> <a href="#" target="_blank">街机三国</a> </li> 
+        <li> <a href="#" target="_blank">成人三国志</a> </li> 
+        <li> <a href="#" target="_blank">永恒纪元</a> </li> 
+        <li> <a href="#" target="_blank">寒刀</a> </li> 
+        <li> <a href="#" target="_blank">九仙图</a> </li> 
+        <li> <a href="#" target="_blank">龙神契约</a> </li> 
+        <li> <a href="#" target="_blank">3D飞天</a> </li> 
+        <li> <a href="#" target="_blank">太古遮天</a> </li> 
+        <li> <a href="#" target="_blank">西游破坏神</a> </li> 
+        <li> <a href="#" target="_blank">三生三世十里桃花</a> </li> 
+        <li> <a href="#" target="_blank">修仙记</a> <i class="new"></i> </li> 
+        <li> <a href="#" target="_blank">刺秦秘史</a> <i class="new"></i> </li> 
+        <li> <a href="#" target="_blank">奇迹重生</a> <i class="new"></i> </li> 
+        <li> <a href="#" target="_blank">魔域三国</a> </li> 
+        <li> <a href="#" target="_blank">秦时明月</a> </li> 
+        <li> <a href="#" target="_blank">隋唐英雄</a> </li> 
+        <li> <a href="#" target="_blank">核金弹头</a> <i class="hot"></i> </li> 
+        <li> <a href="#" target="_blank">我是皇</a> <i class="new"></i> </li> 
+        <li> <a href="#" target="_blank">蜀山外传</a> <i class="new"></i> </li> 
+        <li> <a href="#" target="_blank">梦回江湖</a> </li> 
+       </ul> 
+      </div>
+      <!---角色行列表 end--> 
+      <!---策略行列表 start--> 
+      <div class="all-list clearfix"> 
+       <ul class="all-list-img clearfix"> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(34).png" alt="侠义九州" /> </a> </li> 
+        <li> <a href="#" target="_blank"> <img class="lazyload" src="./images/logo(35).png" alt="第一舰队" /> </a> </li> 
+       </ul> 
+       <a class="all-list-more" href="#" target="_blank">更多<br />策略</a> 
+       <ul class="all-list-01 clearfix"> 
+       </ul> 
+      </div> 
+      <!---策略行列表 end--> 
+     </div> 
+     <!--全部游戏end-->
+    </div> 
+    <!--全部游戏 及 热游排行end--> 
+   </div> 
+   <!--主体列表区end-->
+  </div> 
+  <!-- 主体end --> 
+  
+  <!-- 固定定位-返回顶部start-->
+  <div class="fixed-tools" style="display:block;"> 
+   <a class="toTop item" data-bk="wan-index-Top"></a> 
+  </div> 
+  <!-- 固定定位-返回顶部end-->
+  <!-- 底部footer-start-->
+  <div class="foot"> 
+   <div class="wrap clearfix"> 
+    <a class="foot_logo c-textHide" href="javascript:;" style="background:url(./images/usuallylogo.png) no-repeat;">游戏中心</a> <!--游戏中心logo-->
+    <div class="foot_text"> 
+     <p>抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活</p> 
+     <p> 
+     	Copyright&copy;2005-2017 6668yx.com All Rights Reserved 6668游戏 
+     	<a target="_blank" href="#">浙ICP备16044740号-1 </a> 
+     	<a target="_blank" href="javascript:;">浙ICP备16044740号-1 </a> 
+     </p> 
+     <p>6668游戏(www.6668yx.com)</p> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 底部footer-end-->
+  <script src="./js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+  <script src="./js/swiper-3.4.2.jquery.min.js" type="text/javascript"></script>
+  <script src="./js/resize.js" type="text/javascript"></script>
+  <script src="./js/common.js" type="text/javascript"></script>
+  <script src="./js/index.js" type="text/javascript"></script> 
+  <script type="text/javascript">
+  		//立即登录按钮点击事件
+		$('.quc-submit').on('click', function(){
+			$.post('###', $('#login_form').serialize(), function(res){
+				if(res.status == 1){
+					window.location.reload();
+				}else{
+					layer.msg(res.info, {time:1000});
+				}
+			});
+			return false;
+		});
+  </script> 
+ </body>
+</html>
